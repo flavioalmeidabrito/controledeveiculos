@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'inter', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0 px;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #158452;
+}
+
+.active{
+    background-color: #513370;
+}
